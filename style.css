@@ -1,0 +1,790 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  /* Подарок при заказе */
+  position: relative;
+  /*width: 1440px;*/
+  height: 1971px;
+  /* superLightGreyColor */
+  background: #F8F8F8;
+}
+
+header {
+/* Секция "Hero с якорем" */
+width: 1440px;
+height: 744px;
+margin: auto;
+/* superLightGreyColor */
+}
+
+.logo {
+position: absolute;
+height: 47px;
+width: 115px;
+top: 40px;
+left: 210px;
+background-image: url(images/header.png);
+}
+
+.price {
+width: 1376px;
+height: 680px;
+left: calc(50% - 1376px/2);
+top: 32px;
+background-image: url(images/pizza30.jpg);
+border-radius: 24px;
+margin: auto;
+}
+
+.priceH {
+/* Скидка 30% на первый заказ */
+position: absolute;
+width: 531px;
+height: 118px;
+left: 210px;
+top: 146px;
+/* Hero */
+font-family: Gotham Pro;
+font-size: 54px;
+line-height: 110%;
+/* or 59px */
+/* whiteColor */
+color: #FFFFFF;
+}
+
+.priceP {
+/* Новым клиентам при заказе через сайт или мобильное приложение */
+position: absolute;
+width: 531px;
+height: 64px;
+left: 210px;
+top: 303px;
+font-weight: bold;
+/* H2 */
+font-family: Gotham Pro;
+font-size: 24px;
+line-height: 133%;
+/* or 32px */
+/* superLightGreyColor */
+color: #F8F8F8;
+}
+
+.priceButton {
+/* Rectangle */
+position: absolute;
+height: 48px;
+width: 198px;
+left: 210px;
+top: 447px;
+/* darkYellowColor */
+background: #E8B81A;
+border-radius: 26px;
+}
+
+.priceButtonText {
+/* Получить скидку */
+position: static;
+margin: auto;
+padding-top: 15px;
+padding-left: 30px;
+/* Button */
+font-family: Gotham Pro;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+/* whiteColor */
+color: #FFFFFF;
+}
+
+.next {
+  /* Секция "Слоган" */
+  position: absolute;
+  width: 1440px;
+  height: 471px;
+  left: 0px;
+  top: 744px;
+  /* superLightGreyColor */
+  background: #F8F8F8;
+}
+
+.better {
+  /* Лучше ингредиенты. Лучше пицца. */
+  position: absolute;
+  width: 530px;
+  height: 32px;
+  left: calc(50% - 530px/2 - 273px);
+  bottom: 407px;
+  /* H2 */
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 133%;
+  /* identical to box height, or 32px */
+  /* brownColor */
+  color: #70544F;
+}
+
+.cheeseBlock {
+  /* Rectangle */
+  position: absolute;
+  width: 532px;
+  height: 156px;
+  left: calc(50% - 532px/2 - 274px);
+  bottom: 219px;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+
+.cheese {
+padding-left: 32px;
+padding-top: 16px;
+width: 361.93px;
+height: 24px;
+left: calc(50% - 361.93px/2 - 327.03px);
+bottom: 319px;
+/* H3 */
+}
+
+.cheeseText {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 133%;
+  /* identical to box height, or 24px */
+  /* brownColor */
+  color: #70544F;
+}
+
+.cheeseBort {
+  /* Наш фирменный сыр – моцарелла отличного качества. Если хотите больше сыра, можете добавить опцию «сырный борт» */
+  width: 388px;
+  height: 60px;
+  left: calc(50% - 388px/2 - 314px);
+  bottom: 251px;
+}
+
+.cheeseBortText {
+  /* Body */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+  /* brownColor */
+  color: #70544F;
+}
+
+.sloganImages {
+position: absolute;
+z-index: 100;
+width: 70px;
+height: 70px;
+left: 446px;
+top: 16px;
+}
+
+.pastryBlock {
+  /* Rectangle */
+  position: absolute;
+  width: 530px;
+  height: 156px;
+  left: calc(50% - 530px/2 - 275px);
+  bottom: 36px;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+
+.pastryH {
+/* Тесто */
+padding-left: 32px;
+padding-top: 16px;
+width: 386px;
+height: 24px;
+left: calc(50% - 386px/2 - 315px);
+bottom: 136px;
+/* H3 */
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 133%;
+/* identical to box height, or 24px */
+/* brownColor */
+color: #70544F;
+}
+
+.pastryText {
+padding-left: 32px;
+width: 386px;
+height: 60px;
+left: calc(50% - 386px/2 - 315px);
+bottom: 68px;
+/* Body */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+/* brownColor */
+color: #70544F;
+}
+
+
+
+.sauceBlock {
+/* Rectangle */
+position: absolute;
+width: 532px;
+height: 156px;
+left: calc(50% - 532px/2 + 274px);
+bottom: 219px;
+background: #FFFFFF;
+border-radius: 6px;
+}
+
+.sauce {
+padding-left: 32px;
+padding-top: 16px;
+/* Соус */
+width: 388px;
+height: 24px;
+left: calc(50% - 388px/2 + 234px);
+bottom: 319px;
+/* H3 */
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 133%;
+/* identical to box height, or 24px */
+/* brownColor */
+color: #70544F;
+}
+
+.sauceText {
+  padding-left: 32px;
+  width: 388px;
+  height: 60px;
+  left: calc(50% - 388px/2 + 234px);
+  bottom: 251px;
+  /* Body */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+  /* brownColor */
+  color: #70544F;
+}
+
+
+
+.ingBlock {
+/* Rectangle */
+position: absolute;
+width: 532px;
+height: 160px;
+left: calc(50% - 532px/2 + 274px);
+bottom: 32px;
+background: #FFFFFF;
+border-radius: 6px;
+}
+
+.ing {
+  padding-left: 32px;
+  padding-top: 16px;
+/* Ингредиенты */
+width: 396px;
+height: 24px;
+left: calc(50% - 396px/2 + 230px);
+bottom: 144px;
+/* H3 */
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 133%;
+/* identical to box height, or 24px */
+/* brownColor */
+color: #70544F;
+}
+
+.ingText {
+  padding-left: 32px;
+  width: 396px;
+  height: 60px;
+  left: calc(50% - 396px/2 + 230px);
+  bottom: 76px;
+  /* Body */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+  /* brownColor */
+  color: #70544F;
+}
+
+.registerBox {
+  /* section (Регистрация) */
+  position: absolute;
+  width: 1440px;
+  height: 642px;
+
+  bottom: 82px;
+  height: auto;
+  /* whiteColor */
+  background: #FFFFFF;
+}
+
+.registerH {
+  position: absolute;
+  width: 420px;
+  height: 120px;
+  left: calc(50% - 420px/2 - 330px);
+  top: 95px;
+  /* Hero Small */
+  font-family: Gotham Pro;
+  font-size: 30px;
+  line-height: 133%;
+  /* or 40px */
+  /* brownColor */
+  color: #70544F;
+}
+
+.registerText {
+position: absolute;
+width: 395px;
+height: 44px;
+left: calc(50% - 395px/2 - 342.5px);
+top: 245px;
+/* Body Big */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+/* lightBrownColor */
+color: #A69895;
+}
+
+.registerMenuBox {
+/* Rectangle */
+position: absolute;
+width: 532px;
+height: 520px;
+left: calc(50% - 532px/2 + 274px);
+top: 80px;
+/* yellowColor */
+background: #FBCD5A;
+border-radius: 24px;
+}
+
+.registerMenuName {
+  /* Имя * */
+  position: absolute;
+  width: 38px;
+  height: 20px;
+  left: 40px;
+  top: 30px;
+  /* Body */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  /* whiteColor */
+  color: #FFFFFF;
+}
+
+.registerMenuNameBox {
+  /* Rectangle */
+  position: absolute;
+  width: 452px;
+  height: 49px;
+  left: 40px;
+  top: 67px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+::-webkit-input-placeholder {
+  /* Ваше имя */
+  position: absolute;
+  height: 22px;
+  left: 16px;
+  right: 16px;
+  top: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* whiteColor */
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.registerMenuEmail {
+  /* E-mail * */
+position: absolute;
+width: 49px;
+height: 20px;
+left: 40px;
+top: 120px;
+/* Body */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+/* whiteColor */
+color: #FFFFFF;
+}
+
+.registerMenuNumber {
+/* Номер телефона * */
+position: absolute;
+width: 120px;
+height: 20px;
+left: 40px;
+top: 210px;
+/* Body */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+/* whiteColor */
+color: #FFFFFF;
+}
+
+.sendButton {
+/* Rectangle */
+position: absolute;
+left: 40px;
+right: 351px;
+top: 321px;
+bottom: 151px;
+/* greenColor */
+background: #009471;
+border-radius: 26px;
+}
+
+.sendButtonText {
+/* Отправить */
+position: absolute;
+left: 20%;
+/* Button */
+font-family: Gotham Pro;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+/* whiteColor */
+color: #FFFFFF;
+}
+
+.starsExp {
+  /* * Поля обязательные для заполнения */
+  position: absolute;
+  width: 360px;
+  height: 17px;
+  left: 44px;
+  top: 390px;
+  /* Caption */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+  /* superLightGreyColor */
+  color: #F8F8F8;
+}
+
+.personalText {
+  /* Нажимая «Зарегистрироваться», Вы даёте Согласие на обработку Ваших персональных данных,
+  получение SMS и E-mail уведомлений с акциями и промокодами, и принимаете Пользовательское соглашение */
+  position: absolute;
+  width: 444px;
+  height: 51px;
+  left: 44px;
+  top: 409px;
+  /* Caption */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 17px */
+  /* superLightGreyColor */
+  color: #F8F8F8;
+}
+
+.pepper {
+  /* image */
+  position: absolute;
+  width: 178px;
+  height: 109px;
+  left: 515px;
+  top: 307px;
+  background: url(images/image.png);
+}
+
+.green {
+/* image */
+position: absolute;
+width: 314px;
+height: 244px;
+right: 552px;
+background: url(images/green.png);
+}
+
+.pizzaSlice {
+  /* image 6 */
+width: 1090px;
+height: 642px;
+right: 807px;
+top: 278px;
+background: url(images/pizza6.png) no-repeat left bottom;
+}
+
+.tomatoTwo {
+/* image 2 */
+position: absolute;
+width: 171px;
+height: 157px;
+right: 1270px;
+top: 79px;
+background: url(images/tomato2.png) no-repeat left;
+}
+
+.tomatoThree {
+/* image 3 */
+position: absolute;
+width: 171px;
+height: 186px;
+right: 840px;
+top: 456px;
+background: url(images/tomato3.png);
+}
+
+.tomatoFour {
+/* image 4 */
+position: absolute;
+width: 240px;
+height: 220px;
+right: -49px;
+top: 278px;
+background: url(images/tomato4.png) no-repeat;
+}
+
+.tomatoFive {
+/* image 5 */
+position: absolute;
+width: 205px;
+height: 160px;
+right: 0px;
+top: -0px;
+background: url(images/tomato5.png);
+}
+
+footer {
+  /* footer */
+  position: absolute;
+  width: 1440px;
+  height: 82px;
+  left: calc(50% - 1440px/2);
+  bottom: 0px;
+}
+
+.copyright {
+float: left;
+padding-left: 180px;
+padding-top: 12px;
+/* Caption */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 140%;
+/* or 17px */
+/* lightBrownColor */
+color: #A69895;
+}
+
+.data {
+/* Политика обработки персональных данных */
+float: right;
+padding-right: 180px;
+padding-top: 11px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+/* brownColor */
+color: #70544F;
+}
+
+.data2 {
+/* Политика обработки персональных данных */
+float: right;
+padding-right: 25px;
+padding-top: 11px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+/* brownColor */
+color: #70544F;
+}
+
+.data3 {
+/* Политика обработки персональных данных */
+float: right;
+padding-right: 25px;
+padding-top: 11px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+/* brownColor */
+color: #70544F;
+}
+
+/* Виджет 
+.viget {
+  position: fixed; 
+  width: 48px;
+  height: 48px;
+  left: 1392px;
+  top: 252px;
+  z-index: 100;
+  color: rgb(255, 255, 255);
+  }
+  */
+
+  /* Главная кнопка  */
+
+.dropbtn {
+  color: white;
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: 252px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: fixed;
+  display: inline-block;
+
+}
+
+/* Выезжающая часть */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  background-color:rgb(255, 255, 255);
+  min-width: 48px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(121, 78, 138);
+
+  text-decoration: none;
+  display: block;
+  width: 48px;
+    height: 48px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(0, 0, 0)}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.dropdown2 {
+  position: fixed;
+  display: inline-block;
+
+}
+
+
+/* Выезжающая часть */
+.dropdown-content2 {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  background-color:rgb(255, 255, 255);
+  min-width: 48px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.dropbtn2 {
+  color: white;
+  width: 48px;
+  height: 48px;
+  left: 132px;
+  top: 252px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.show2 {display:block;}
+
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf
+}
